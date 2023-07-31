@@ -14,5 +14,6 @@ double degX = Math.Pow((x2 - x1),2);
 double degY = Math.Pow((y2 -y1), 2);
 double sum = degX + degY;
 double result = Math.Sqrt(sum);
+result = Math.Round(result,3);
 
 Console.WriteLine(result);
